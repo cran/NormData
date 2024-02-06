@@ -9,7 +9,7 @@ Bootstrap.Stage.2.NormTable <- function(Stage.2.NormTable,
   }
   
   if (Number.Bootstraps<100){
-    message("\n\nNOTE: the number of bootstrap samples is lower than 100. It is recommended to use at least 100 bootstrap samples\n\n")
+    if (verbose==TRUE)  cat("\nNOTE: the number of bootstrap samples is lower than 100. It is recommended to use at least 100 bootstrap samples\n")
   }
   
   Dataset <- Stage.2.NormTable$Stage.1.Model$HomoNorm$Dataset
@@ -53,7 +53,7 @@ Bootstrap.Stage.2.NormTable <- function(Stage.2.NormTable,
     
     
     if (Show.Fitted.Boot==TRUE){
-      message(paste0("\n\n*** Bootstrap sample ", i, " ***\n\n"))
+      if (verbose==TRUE) cat(paste0("\n\n*** Bootstrap sample ", i, " ***\n\n"))
       summary(Model_Boot)}
     
     Norm_Table_Boot <- try(Stage.2.NormTable(Stage.1.Model = Model_Boot,  

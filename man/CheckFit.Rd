@@ -29,7 +29,7 @@ An object of class \code{CheckFit} with component,
 \item{Saturated}{Is the fitted \code{Stage.1.Model} a saturated model?}
 }
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

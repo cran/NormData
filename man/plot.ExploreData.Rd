@@ -34,7 +34,7 @@ cex.axis=1, cex.main=1, cex.lab=1, \dots)
 }
 \value{No return value, called for side effects.}
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

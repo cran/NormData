@@ -34,7 +34,7 @@ https://cran.r-project.org/web/packages/ICC/ICC.pdf
 
 Kutner, M. H., Nachtsheim, C. J., Neter, J., and Li, W. (2005). \emph{Applied linear statistical models} (5th edition). New York: McGraw Hill.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Original function: Matthew Wolak (with some small modifications by Wim Van der Elst)

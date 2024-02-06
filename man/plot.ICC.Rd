@@ -28,7 +28,7 @@ Add.Mean.Per.Cluster=TRUE, Col.Mean.Symbol="red", Seed=123,
 \references{
 Kutner, M. H., Nachtsheim, C. J., Neter, J., and Li, W. (2005). \emph{Applied linear statistical models} (5th edition). New York: McGraw Hill.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

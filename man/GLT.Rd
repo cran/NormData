@@ -30,7 +30,7 @@ For details, see Van der Elst (2023).
 \item{Alpha.Homoscedasticity}{The significance level that was used to conduct the homoscedasticity test. Default \code{Alpha.Homoscedasticity=0.05}.}
 }
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

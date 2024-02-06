@@ -17,7 +17,7 @@ Tukey.HSD(Stage.1.Model, ...)
 \references{
 Tukey, J. (1949). Comparing individual means in the Analysis of Variance. \emph{Biometrics, 5,} 99-114.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

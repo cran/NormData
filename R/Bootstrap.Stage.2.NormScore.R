@@ -12,7 +12,7 @@ if (inherits(Stage.2.NormScore, what = "Stage.2.NormScore")==FALSE){
 }
 
 if (Number.Bootstraps < 100){
-    message("\nNOTE: the number of bootstrap samples is lower than 100. It is recommended to use at least 100 bootstrap samples\n")
+  if (verbose==TRUE) cat("\nNOTE: the number of bootstrap samples is lower than 100. It is recommended to use at least 100 bootstrap samples\n")
   }  
   
 All.Percentiles <- NULL
@@ -48,7 +48,7 @@ for (i in 1: Number.Bootstraps){
   }
   
   if (Show.Fitted.Boot==TRUE){
-    message(paste0("\n\n*** Bootstrap sample ", i, " ***\n\n"))
+    if (verbose==TRUE) cat(paste0("\n\n*** Bootstrap sample ", i, " ***\n\n"))
     summary(Fit)}
   
   Percentile.Here <- Stage.2.NormScore(Stage.1.Model = Fit, Score = Stage.2.NormScore$Score, 

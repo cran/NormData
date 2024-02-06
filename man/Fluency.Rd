@@ -15,7 +15,7 @@ A \code{data.frame} with \eqn{1241} observations on \eqn{3} variables.
 \references{
 Rivera \emph{et al.} (2019). Normative Data For Verbal Fluency in Healthy Latin American Adults: Letter M, and Fruits and Occupations Categories. \emph{Neuropsychology, 33,} 287-300.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \keyword{Fluency}
 \keyword{Dataset}

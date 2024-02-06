@@ -17,7 +17,7 @@ A \code{data.frame} with \eqn{1460} observations on \eqn{5} variables.
 \references{
 Van der Elst \emph{et al.} (2005). Rey's Verbal Learning Test: Normative data for 1,855 healthy participants aged 24-81 years and the influence of age, sex, education, and mode of presentation. \emph{Journal of the International Neuropsychological Society, 11,} 290-302.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature.
 }
 \keyword{VLT}
 \keyword{Dataset}

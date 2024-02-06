@@ -18,7 +18,7 @@ cex.axis=1, cex.main=1, cex.lab=1, \dots)
 }
 \value{No return value, called for side effects.}
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst
@@ -26,7 +26,7 @@ Wim Van der Elst
 \seealso{\link{Bootstrap.Stage.2.NormScore}
 }
 \examples{
-\dontrun{  # Time-intensive part
+\donttest{  # Time-intensive part
 # Replicate the bootstrap results that were obtained in 
 # Case study 1 of Chapter 8 in Van der Elst (2023)
 # -----------------------------------------------------

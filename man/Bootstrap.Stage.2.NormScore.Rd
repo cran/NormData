@@ -32,7 +32,7 @@ An object of class \code{Stage.2.NormScore} with components,
 \item{Percentile.Point.Estimate}{The point estimate for the percentile rank (based on the original dataset).}
 }
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst
@@ -41,7 +41,7 @@ Wim Van der Elst
 \code{\link{Stage.2.NormScore}}
 }
 \examples{
-\dontrun{ # Time-intensive part
+\donttest{ # Time-intensive part
 # Replicate the bootstrap results that were obtained in 
 # Case study 1 of Chapter 8 in Van der Elst (2023)
 # -----------------------------------------------------

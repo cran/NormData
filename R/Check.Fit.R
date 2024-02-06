@@ -33,9 +33,9 @@ Std.Error.Mean <- function(x){sd(x)/sqrt(length(x))}
 Lower.CI.Mean <- function(x){mean(x) - (qt(c((1-CI)/2), df=length(x)-1, lower.tail=FALSE) * (sd(x)/sqrt(length(x))))}  
 Upper.CI.Mean <- function(x){mean(x) + (qt(c((1-CI)/2), df=length(x)-1, lower.tail=FALSE) * (sd(x)/sqrt(length(x))))}    
 
-old.options <- options()
-on.exit(options(old.options))
-options(digits=Digits)  
+# old.options <- options()
+# on.exit(options(old.options))
+# options(digits=Digits)  
 
 # Computations for raw test score
 

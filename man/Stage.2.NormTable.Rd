@@ -36,10 +36,9 @@ An object of class \code{Stage.2.NormTable} with components,
 \item{Stage.1.Model}{The \code{Stage.1.Model} model that was used to do the computations.}
 \item{Grid.Norm.Table}{The specified \code{Grid.Norm.Table} in the function call.}
 \item{Digits.Percentile}{The number of digits after the decimal point that were requested for the percentile ranks.}
-%\item{Digits.Mean.Res.Std.Error}{The number of digits that need to be shown in the normative table for the predicted means and residual standard errors.}
 }
 \references{
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature. 
 }
 \author{
 Wim Van der Elst

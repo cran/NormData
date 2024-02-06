@@ -15,7 +15,7 @@ This function plots the results of Tukey's Honest Significance Difference (HSD; 
 \references{
 Tukey, J. (1949). Comparing individual means in the Analysis of Variance. \emph{Biometrics, 5,} 99-114.
 
-Van der Elst, W. (2023). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} New York: Springer. 
+Van der Elst, W. (2024). \emph{Regression-based normative data for psychological assessment: A hands-on approach using R.} Springer Nature.
 }
 \author{
 Wim Van der Elst
