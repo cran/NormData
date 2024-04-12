@@ -179,28 +179,28 @@ summary.Stage.1 <- function(object, ..., Object){
     Highest.Delta <- Data_temp2[order(-abs(Data_temp2$Delta_i)),][c(1:5),]
     Number_boven_cutoff <- sum(abs(na.exclude(Data_temp$Delta_i)) > Cut_off)
     Obs_above_cut_off <- data.frame(Data_temp[(abs(Data_temp$Delta_i) > Cut_off),])
-    names(Obs_above_cut_off) <- c("Observation", "|Std. residual|")
+    names(Obs_above_cut_off) <- c("Observation", "Std. residual")
     if (Number_boven_cutoff == 0){cat(paste("\nNo outliers were detected (using |Std. residual| > ", 
                                             Object$Outlier.Cut.Off,")\n", sep=""))}
     if (Number_boven_cutoff == 1){
       cat(paste("\nThere is ", Number_boven_cutoff, " outlier in the dataset (using |Std. residual| > ", 
                 Object$Outlier.Cut.Off,"): \n\n", sep=""))
       Obs_above_cut_off <- data.frame(Obs_above_cut_off, row.names = NULL)
-      colnames(Obs_above_cut_off) <- c("Observation", "|Std. residual|")
+      colnames(Obs_above_cut_off) <- c("Observation", "Std. residual")
       print(na.exclude(Obs_above_cut_off))
     }
     if (Number_boven_cutoff > 1){
       cat(paste("\nThere are ", Number_boven_cutoff, " outliers in the dataset (using |Std. residual| > ", 
                 Object$Outlier.Cut.Off,"): \n\n", sep=""))
       Obs_above_cut_off <- data.frame(Obs_above_cut_off, row.names = NULL)
-      colnames(Obs_above_cut_off) <- c("Observation", "|Std. residual|")
+      colnames(Obs_above_cut_off) <- c("Observation", "Std. residual")
       print(na.exclude(Obs_above_cut_off))
     }
     
     # list of observations with highest |delta_i| values
     cat("\nObservations with highest |delta_i| values:\n")
     Highest.Delta <- data.frame(Highest.Delta, row.names = NULL)
-    colnames(Highest.Delta) <- c("Observation", "|Std. residual|")
+    colnames(Highest.Delta) <- c("Observation", "Std. residual")
     print(Highest.Delta[c(1:3),])
     
     if (Object$Num.Preds != 1){  # for intercept-only not relevant

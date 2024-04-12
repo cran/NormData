@@ -110,9 +110,9 @@ summary.Bootstrap.Stage.2.NormScore <- function(object, ..., Object){
   if (missing(Object)){Object <- object} 
   
   # Confidence interval
-  cat("-----------------------------------")
-  cat("\nBootstrap-based confidence interval")
-  cat("\n-----------------------------------")
+  cat("-----------------------")
+  cat("\nPercentile bootstrap CI")
+  cat("\n-----------------------")
   cat("\nPoint estimate percentile rank: ", Object$Percentile.Point.Estimate, sep="")
   cat(paste0("\n", Object$CI*100, "% CI: [", Object$CI.Percentile[1], ", ", Object$CI.Percentile[2], "]"))
   

@@ -1,7 +1,7 @@
-f167f0ce5cf30a6c7e5455ba42af9c63 *DESCRIPTION
+b07471b0cf33ef709d4c6f6f7d771087 *DESCRIPTION
 fe0c1c46b3611805b9aa305518ec309e *NAMESPACE
 8656c37e12a24821c7e889b6c3e68bef *NEWS
-9bc893f4e13601abc2ab2a3cacf6d283 *R/Bootstrap.Stage.2.NormScore.R
+6c983afd03f958f3b1a21f65f79a7e0e *R/Bootstrap.Stage.2.NormScore.R
 307d12e0afc6fa155b599c7e6b48070d *R/Bootstrap.Stage.2.NormTable.R
 9a8c1d3e921d7698cbdf60f3be7182ee *R/Check.Assum.R
 f2282ab05467f048fe2df4b8ac616a61 *R/Check.Fit.R
@@ -22,7 +22,7 @@ de62cff16365019b4a1e0e69db449896 *R/Stage.1.R
 9fa2a8daa69915301d1e18c00b8d9e53 *R/Stage.2.AutoScore.R
 aafb3e8308d9b2c5ab23ba21876bc87a *R/Stage.2.NormScore.R
 57b5a544915b2ba21481e60739f4c34d *R/Stage.2.NormTable.R
-273cc7f591fd621e769926b2a89b9260 *R/Summary.Stage.1.R
+72aeb1ae17306a044b147b8767ea7add *R/Summary.Stage.1.R
 3a65ecac5a0cde7be83fa7fcdad589ad *R/Tukey.HSD.R
 d4e91797e9e228cbb577bd8a9c499bb2 *R/WriteNormTable.R
 e4f05a75340a4f94be645d39630eb7e7 *data/Fluency.rda
